@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const { db, initDB } = require('./db');
 
 const app = express();
-const PORT = 8081; // Cambiado a 8081
+const PORT = 8001; // Cambiado a 8081
 
 // Middleware para parsear JSON
 app.use(express.json()); // Usando express.json() en lugar de bodyParser
