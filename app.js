@@ -1,7 +1,7 @@
 const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
 const app = express();
-const PORT = 8001; // Puerto en el que correrá la API
+const PORT = 8002; // Puerto en el que correrá la API
 
 // Middleware para manejar JSON
 app.use(express.json());
